@@ -7,8 +7,8 @@
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
@@ -5683,8 +5683,7 @@ a.bg-dark:hover {
 }
 
 .d-block {
-    display: block!important
-    text-align: center;
+    display: block!important text-align: center;
 }
 
 .d-table {
@@ -5947,7 +5946,7 @@ a.bg-dark:hover {
 
 .justify-content-center {
     -ms-flex-pack: center!important;
-    justify-content: center!important
+    justify-content: center!important;
 }
 
 .justify-content-between {

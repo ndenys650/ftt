@@ -18,12 +18,10 @@
 
 @import 'now-ui-kit/variables';
 @import 'now-ui-kit/mixins';
-
 // Plugins CSS
 @import "now-ui-kit/plugins/plugin-bootstrap-switch";
 @import "now-ui-kit/plugins/plugin-nouislider";
 @import "now-ui-kit/plugins/plugin-datepicker";
-
 // Core CSS
 @import "now-ui-kit/buttons";
 @import "now-ui-kit/inputs";
@@ -34,7 +32,6 @@
 @import "now-ui-kit/typography";
 @import "now-ui-kit/misc";
 @import "now-ui-kit/pills";
-
 // components
 @import "now-ui-kit/social-buttons";
 @import "now-ui-kit/tabs";
@@ -48,10 +45,7 @@
 @import "now-ui-kit/carousel";
 @import "now-ui-kit/cards";
 @import "now-ui-kit/footers";
-
 // example pages and sections
 @import "now-ui-kit/example-pages";
 @import "now-ui-kit/sections";
-
-
 @import "now-ui-kit/responsive";

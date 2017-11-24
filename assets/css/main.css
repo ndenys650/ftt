@@ -1,0 +1,72 @@
+#textarea {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.nav-open .sidebar-collapse .wrapper {
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -o-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+}
+
+.page-header {
+    color: black;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.cards {
+    height: 100%;
+}
+
+.abouts {
+    margin-top: 0;
+}
+
+.buttons {
+    width: 100%;
+}
+
+.wrapper {
+    background: #558AD8;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(#558AD8 0%, #FFF4C5 80%);
+    background: -o-linear-gradient(#558AD8 0%, #FFF4C5 80%);
+    background: linear-gradient(#558AD8 0%, #FFF4C5 80%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dropdown {
+    padding: auto;
+}
+
+@media screen and (max-width: 991) {
+    .title {
+        display: none;
+    }
+    .logo {
+        height: 75px;
+    }
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .sidebar-collapse .navbar-collapse:before {
+        background: #F7AD0A;
+        background: -webkit-linear-gradient(#F7AD0A 0%, #558AD8 80%);
+        background: -o-linear-gradient(#F7AD0A 0%, #558AD8 80%);
+        background: -moz-linear-gradient(#F7AD0A 0%, #558AD8 80%);
+        background: linear-gradient(#F7AD0A 0%, #558AD8 80%);
+    }
+}

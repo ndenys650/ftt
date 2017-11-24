@@ -16,14 +16,15 @@
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <link href="./assets/css/main.css" rel="stylesheet" />
 </head>
 
-<body class="index-page sidebar-collapse">
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="100">
+<body class="sidebar-collapse">
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="50">
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="index.html" data-placement="bottom" target="_blank">
-                    <img src="logo.svg" alt="Kiddo Logo" />
+                    <img class="logo" src="logo.svg" alt="Kiddo Logo" />
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
@@ -63,25 +64,17 @@
                             <p>Contact</p>
                         </a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
     <!-- End Navbar -->
-    <div class="wrapper" data-parallax="true" style="background: #003973; /* fallback for old browsers */ /* Chrome 10-25,
-                                Safari 5.1-6 */ background: -webkit-linear-gradient(#003973, #FFF4C5); background: -o-linear-gradient(#003973,
-                                #FFF4C5); background: linear-gradient(#003973, #FFF4C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome
-                                26+, Opera 12+, Safari 7+ */">
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="section section-tabs">
+    <div class="wrapper justify-content-center">
+        <div class="clear-filter">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center" style="padding-top: 160px;">
                     <div class="col-12">
-                        <div class="card-columns">
+                        <div class="card-columns cards">
                             <div class="card p-3 text-center bg-primary">
                                 <img class="card-img-top" src="assets/img/ftt/toys/Seeding.jpg" alt="Kites">
                                 <div class="card-body">
@@ -93,7 +86,7 @@
                                 <img class="card-img-top" src="assets/img/ftt/toys/littleBita.png" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">littleBits</h4>
-                                    <p class="card-text">The Droid Inventor Kit and the Gadgets & Gizmos Kit are winning awards and are rated as "The best tech gifts" by Time Magazine. These electronic blocks (called Bits) that snap together with magnets, make inventing simple
+                                    <p class="card-text">The Droid Inventor Kit and the Gadgets & Gizmos Kit are winning awards and are rated as"The best tech gifts" by Time Magazine. These electronic blocks (called Bits) that snap together with magnets, make inventing simple
                                         and accessible and challenge kids to think critically and get creative!</p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
@@ -161,11 +154,13 @@
                 </div>
             </div>
         </div>
+
         <!-- End Section Tabs -->
+
         <div class="section section-download" id="#download-section" data-background-color="black">
             <div class="container">
                 <br>
-                <div class="row justify-content-md-center sharing-area text-center">
+                <div class="row justify-content-center sharing-area text-center">
                     <div class="text-center col-md-12 col-lg-8">
                         <h5 class="description">Thank you for visiting FogTownToys.com!<br>At FogTownToys we strive to provide the community with a distinctive variety of quality toys in a fun and friendly environment. We do our best to give every customer outstanding customer
                             service and encourage children and adults to come and experience our toys first hand.</h5>
@@ -174,39 +169,32 @@
                         <h3>Thanks for your support!</h3>
                     </div>
                     <div class="text-center col-md-12 col-lg-8">
-                        <a target="_blank" href="https://www.twitter.com/creativetim" class="btn btn-neutral btn-icon btn-twitter
-                                btn-round btn-lg" rel="tooltip" title="Follow us">
+                        <a target="_blank" href="https://twitter.com/FogTownToysHMB" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg" rel="tooltip" title="Follow us">
                             <i class="fa fa-twitter"></i>
                         </a>
-                        <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-neutral btn-icon btn-facebook
-                                btn-round btn-lg" rel="tooltip" title="Like us">
+                        <a target="_blank" href="https://www.facebook.com/FogTownToys?fref=ts" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg" rel="tooltip" title="Like us">
                             <i class="fa fa-facebook-square"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Start Footer -->
-        <footer class="footer" data-background-color="black">
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="http://www.natedenys.com" target="_blank"><i class="fa fa-fighter-jet" aria-hidden="true"></i> Nate Denys</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="copyright">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>, <i class="fa fa-clipboard" aria-hidden="true"></i> Designed and <i class="fa fa-link" aria-hidden="true"></i> ReCoded by
-                    <a href="http://www.natedenys.com" target="_blank">Nate Denys</a>.
-                </div>
+    <!-- Start Footer -->
+    <footer class="footer" data-background-color="black">
+        <div class="container">
+            <div class="copyright">
+                <i class="fa fa-clipboard" aria-hidden="true"></i> Designed and
+                <i class="fa fa-link" aria-hidden="true"></i> ReCoded by
+                <a href="http://www.natedenys.com" target="_blank">Nate Denys</a>. <i class="fa fa-fighter-jet" aria-hidden="true"></i> &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
             </div>
-        </footer>
-        <!-- End Footer -->
+        </div>
+    </footer>
+    <!-- End Footer -->
 
     </div>
 </body>
@@ -238,4 +226,4 @@
     }
 </script>
 
-</html>h
+</html>
