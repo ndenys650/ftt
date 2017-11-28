@@ -26,14 +26,19 @@
     font-size: 30px;
 }
 
+.text-muted {
+    color: white!important;
+    font-weight: 900;
+}
+
 .card-text {
-    font-family: 'Crushed', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
     font-weight: 900;
     font-size: 20px;
 }
 
 .modal-body {
-    font-family: 'Crushed', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
     font-size: 25px;
 }
 
@@ -127,4 +132,12 @@
         background: -moz-linear-gradient(#2196F3 0%, #FFC107 80%);
         background: linear-gradient(#2196F3 0%, #FFC107 80%);
     }
+}
+
+h4,
+.h4 {
+    font-size: 1.714em;
+    line-height: 1.45em;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
