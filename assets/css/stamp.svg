@@ -1,20 +1,20 @@
-<svg width="375" height="748" viewBox="0 0 375 748" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="374" height="747" viewBox="0 0 374 747" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Vector</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-8 234)">
+<g id="Canvas" transform="translate(-9 234)">
 <g id="Vector">
-<use xlink:href="#path0_fill" transform="translate(8.5 -233.5)" fill="#FFFFFF"/>
-<use xlink:href="#path1_fill" transform="translate(8.5 -233.5)" fill="#FFFFFF"/>
-<use xlink:href="#path2_fill" transform="translate(8.5 -233.5)" fill="#FFFFFF"/>
-<use xlink:href="#path3_fill" transform="translate(8.5 -233.5)" fill="#FFFFFF"/>
-<use xlink:href="#path4_fill" transform="translate(8.5 -233.5)" fill="#FFFFFF"/>
+<use xlink:href="#path0_fill" transform="translate(9 -234)" fill="#FFFFFF"/>
+<use xlink:href="#path1_fill" transform="translate(9 -234)" fill="#FFFFFF"/>
+<use xlink:href="#path2_fill" transform="translate(9 -234)" fill="#FFFFFF"/>
+<use xlink:href="#path3_fill" transform="translate(9 -234)" fill="#FFFFFF"/>
+<use xlink:href="#path4_fill" transform="translate(9 -234)" fill="#FFFFFF"/>
 </g>
 </g>
 <defs>
 <path id="path0_fill" fill-rule="evenodd" d="M 19 7.10543e-12C 19 14.5 10.5 19 6.03961e-13 19L 1.34972e-05 241.986C -1.68715e-05 309.585 1.34972e-05 306.006 1.34972e-05 378.638C 1.34972e-05 451.273 1.34972e-05 432.03 1.34972e-05 505.015L 6.03961e-13 728C 10 728 19.5 732.5 19.5 747L 121.155 747C 161.546 747 149.531 747 185.896 747C 222.262 747 200.97 747 252.845 747L 354.5 747C 354.5 735 362.5 727.5 374 727.5L 374 505.015C 374 455.523 374 443.442 374 370.808C 374 298.175 374 281.821 374 241.986L 374 19.5C 365 19.5 354 14 354 8.52651e-14L 252.845 7.10543e-12C 216.817 -8.69176e-12 223.035 7.10543e-12 186.669 7.10543e-12C 150.304 7.10543e-12 154.203 7.10543e-12 121.155 7.10543e-12L 19 7.10543e-12Z"/>
-<path id="path1_fill" d="M 372.5 6C 372.5 8.48528 370.485 10.5 368 10.5C 365.515 10.5 363.5 8.48528 363.5 6C 363.5 3.51472 365.515 1.5 368 1.5C 370.485 1.5 372.5 3.51472 372.5 6Z"/>
-<path id="path2_fill" d="M 10.5 6C 10.5 8.48528 8.48528 10.5 6 10.5C 3.51472 10.5 1.5 8.48528 1.5 6C 1.5 3.51472 3.51472 1.5 6 1.5C 8.48528 1.5 10.5 3.51472 10.5 6Z"/>
-<path id="path3_fill" d="M 372.5 741C 372.5 743.485 370.485 745.5 368 745.5C 365.515 745.5 363.5 743.485 363.5 741C 363.5 738.515 365.515 736.5 368 736.5C 370.485 736.5 372.5 738.515 372.5 741Z"/>
-<path id="path4_fill" d="M 10.5 741C 10.5 743.485 8.48528 745.5 6 745.5C 3.51472 745.5 1.5 743.485 1.5 741C 1.5 738.515 3.51472 736.5 6 736.5C 8.48528 736.5 10.5 738.515 10.5 741Z"/>
+<path id="path1_fill" d="M 370 8.52746C 370 11.0127 367.985 13.0275 365.5 13.0275C 363.015 13.0275 361 11.0127 361 8.52746C 361 6.04218 363.015 4.02746 365.5 4.02746C 367.985 4.02746 370 6.04218 370 8.52746Z"/>
+<path id="path2_fill" d="M 12.9725 8.5C 12.9725 10.9853 10.9578 13 8.47254 13C 5.98725 13 3.97254 10.9853 3.97254 8.5C 3.97254 6.01472 5.98725 4 8.47254 4C 10.9578 4 12.9725 6.01472 12.9725 8.5Z"/>
+<path id="path3_fill" d="M 370 738.473C 370 740.958 367.985 742.973 365.5 742.973C 363.015 742.973 361 740.958 361 738.473C 361 735.987 363.015 733.973 365.5 733.973C 367.985 733.973 370 735.987 370 738.473Z"/>
+<path id="path4_fill" d="M 13 738.445C 13 740.93 10.9853 742.945 8.5 742.945C 6.01472 742.945 4 740.93 4 738.445C 4 735.96 6.01472 733.945 8.5 733.945C 10.9853 733.945 13 735.96 13 738.445Z"/>
 </defs>
 </svg>

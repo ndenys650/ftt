@@ -21,6 +21,27 @@
     height: 100%;
 }
 
+.card-title {
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+}
+
+.card-text {
+    font-family: 'Crushed', cursive;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.modal-body {
+    font-family: 'Crushed', cursive;
+    font-size: 25px;
+}
+
+.modal-header {
+    font-family: 'Chewy', cursive;
+    font-size: 35px;
+}
+
 .abouts {
     margin-top: 0;
 }
@@ -61,10 +82,21 @@
 }
 
 .card {
-    background-color: #F7AD0A;
+    background-color: #FFC107;
     width: 100%;
-    border: 1px solid black;
+    border: 2px solid black;
+}
+
+.card-lead {
+    height: 765px;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+}
+
+.card-back {
+    height: 600px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
 }
 
 .navbar {
@@ -87,9 +119,9 @@
 @media screen and (max-width: 991px) {
     .sidebar-collapse .navbar-collapse:before {
         background: #F7AD0A;
-        background: -webkit-linear-gradient(#F7AD0A 0%, #558AD8 80%);
-        background: -o-linear-gradient(#F7AD0A 0%, #558AD8 80%);
-        background: -moz-linear-gradient(#F7AD0A 0%, #558AD8 80%);
-        background: linear-gradient(#F7AD0A 0%, #558AD8 80%);
+        background: -webkit-linear-gradient(#2196F3 0%, #FFC107 80%);
+        background: -o-linear-gradient(#2196F3 0%, #FFC107 80%);
+        background: -moz-linear-gradient(#2196F3 0%, #FFC107 80%);
+        background: linear-gradient(#2196F3 0%, #FFC107 80%);
     }
 }
